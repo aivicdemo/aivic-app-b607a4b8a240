@@ -1,0 +1,17 @@
+{
+  "name": "aivic-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.764.0",
+    "@aws-sdk/lib-dynamodb": "^3.764.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
